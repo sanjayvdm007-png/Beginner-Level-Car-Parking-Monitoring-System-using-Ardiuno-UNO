@@ -1,10 +1,10 @@
-# 🚗 Beginner-Level Car Parking Monitoring System using Arduino UNO
+# · Beginner-Level Car Parking Monitoring System using Arduino UNO
 
 A simple and beginner-friendly car parking monitoring system built using an **Arduino UNO**, **three ultrasonic distance sensors**, and **three I2C LCD displays**. The system detects the presence of vehicles in parking slots and displays the real-time status on individual LCD screens.
 
 ---
 
-## 📌 Project Overview
+## · Project Overview
 
 This project simulates a basic car parking monitoring system where each parking slot is monitored by an ultrasonic sensor. When a vehicle is detected within a defined distance threshold, the corresponding LCD display shows the slot as **Occupied**. Otherwise, it shows **Available**.
 
@@ -13,11 +13,11 @@ This is ideal for:
 - Understanding I2C communication with multiple devices
 - Prototyping smart parking concepts
 
-🔗 [View & Simulate on Tinkercad](https://www.tinkercad.com/things/kjIyo7lLG8a-empty-space-detector-using-ardiuno)
+[View & Simulate on Tinkercad](https://www.tinkercad.com/things/kjIyo7lLG8a-empty-space-detector-using-ardiuno)
 
 ---
 
-## 🧰 Components
+## · Components
 
 | Name | Quantity | Component |
 |------|----------|-----------|
@@ -29,7 +29,7 @@ This is ideal for:
 
 ---
 
-## 🔌 Pin Connections
+## · Pin Connections
 
 ### Ultrasonic Sensors → Arduino UNO
 
@@ -67,7 +67,7 @@ All three LCD displays share the same I2C bus (SDA and SCL), but each has a uniq
 
 ---
 
-## 🗂️ Circuit Overview
+## · Circuit Overview
 
 ```
 Arduino UNO
@@ -85,7 +85,7 @@ Arduino UNO
 
 ---
 
-## 📚 Libraries Required
+## · Libraries Required
 
 Install the following libraries via Arduino IDE (Sketch → Include Library → Manage Libraries):
 
@@ -94,7 +94,7 @@ Install the following libraries via Arduino IDE (Sketch → Include Library → 
 
 ---
 
-## ⚙️ How It Works
+## · How It Works
 
 1. The Arduino continuously triggers each ultrasonic sensor.
 2. The sensor measures the time taken for the echo to return and calculates the distance.
@@ -103,7 +103,7 @@ Install the following libraries via Arduino IDE (Sketch → Include Library → 
 
 ---
 
-## 🚀 Getting Started
+## · Getting Started
 
 1. Assemble the circuit as per the connection table above.
 2. Install the required libraries in Arduino IDE.
@@ -112,15 +112,16 @@ Install the following libraries via Arduino IDE (Sketch → Include Library → 
 
 ---
 
-## 📷 Circuit Diagram
+## · Circuit Diagram
+
+<img width="1588" height="899" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/82378de2-bb6e-44cb-a411-7dcef20ad7c6" />
 
 
-<img width="1588" height="899" alt="Screenshot 2026-03-25 093028" src="https://github.com/user-attachments/assets/82378de2-bb6e-44cb-a411-7dcef20ad7c6" />
-
-🔗 [https://www.tinkercad.com/things/kjIyo7lLG8a-empty-space-detector-using-ardiuno](https://www.tinkercad.com/things/kjIyo7lLG8a-empty-space-detector-using-ardiuno)
 
 ---
 
-## 📄 License
+## · Author
 
-This project is open-source and free to use for educational purposes.
+**Sanjay Senthil Kumar**  
+1st Year  
+Department of Electronics & Communication Engineering
